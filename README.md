@@ -131,3 +131,10 @@ The database (`MainDB`) consists of **13 interconnected relational tables**, eac
 2. Create the database:
    ```sql
    CREATE DATABASE MainDB;
+3. Execute table creation scripts from create_tables.sql
+4. Load CSV files using COPY or psql
+5. Run SQL scripts to create stored procedures, triggers, and functions
+
+## 📌 Summary
+
+This project demonstrates a robust SQL-driven approach to customer churn prediction, combining strong relational design, automated data handling, and performance-aware query execution. It serves as a practical blueprint for building scalable analytics systems in data-intensive domains such as retail banking.
